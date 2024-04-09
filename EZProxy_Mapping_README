@@ -1,0 +1,12 @@
+To make the code work you'll need to do some pre-processing and mid-processing.
+Also, code assumes file naming and location. 
+Run IP_resolve first.
+Process the IP addresses.
+Then run Mapping.
+
+Before running IP_resolve, you will need to copy EZProxy Audit logs into a csv. Do some basic cleaning in Excel of removing unneeded rows.
+Save as Cleaned_EZProxy.csv
+
+After running IP_resolve and before running Mapping, use an IP address resolving site to get latitudes and longitudes. (Column names are assumed from information produced from://www.showmyip.com/bulk-ip-lookup/)
+
+Mapping will produce 3 types of maps, and download 2. 
